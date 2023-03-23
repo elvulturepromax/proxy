@@ -5,7 +5,7 @@ import { createProxyMiddleware } from 'http-proxy-middleware';
 import NextCors  from 'nextjs-cors';
 
 const apiProxy = createProxyMiddleware({
-  target: "https://discord.com/app",
+  target: "https://github.com/elvulturepromax/proxy",
   changeOrigin: true,
   pathRewrite: {
     "^/api": "" // Strip "/api" from the URL 
