@@ -1,11 +1,11 @@
-// Create a proxy to redirect requests of the "/api/*" path to the web http
+"/ Create a proxy to redirect requests of the "/api/*" path to the web http
 // Examples:
 // GET /api/v1/posts/all?format=json → https://api.pinboard.in/v1/posts/all?format=json
 import { createProxyMiddleware } from 'http-proxy-middleware';
 import NextCors  from 'nextjs-cors';
 
 const apiProxy = createProxyMiddleware({
-  target: "https://www.elamigos-games.com/",
+  target: "https://1fichier.com/?rh3ul10p70mgwfsw33if",
   changeOrigin: true,
   pathRewrite: {
     "^/api": "" // Strip "/api" from the URL 
