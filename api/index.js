@@ -5,7 +5,7 @@ import { createProxyMiddleware } from 'http-proxy-middleware';
 import NextCors  from 'nextjs-cors';
 
 const apiProxy = createProxyMiddleware({
-  target: "https://1fichier.com/?rh3ul10p70mgwfsw33if",
+  target: "https://cxspigot.serveo.net/",
   changeOrigin: true,
   pathRewrite: {
     "^/api": "" // Strip "/api" from the URL 
